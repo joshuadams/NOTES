@@ -1,4 +1,34 @@
-#Strings
+#For Loop
+for i in range(4):
+  print('Hello Cool World!')   
+  
+#This is a Else/If statement
+x = 14
+if x == 15:
+  print(x) 
+elif x ==14:
+  print(x)
+else:
+  print("It's not 15")
+
+
+#This is a line of code that writes out a dictonary 
+book = {
+    'homogenous':'of the same kind',
+    'escapade' : 'exciting adventure',
+    'military' : 'serves our country'
+  }
+print(book.get('homogenous'))
+print(book.get('escapade'))
+
+
+
+
+
+
+
+
+#STRINGS
 words = 'Hello Hello World'
 
 #Prints the words above
@@ -24,6 +54,17 @@ q = input('Do you want to play agian? (y/n)')
 ask = q.upper().startswith('Y')
 print(ask)
 # 'Y' == q -- > True
+
+
+#CLASSES (Dictionaries)
+class Test:
+  i = 15
+  j = 16
+
+x = Test()
+print(x.i, x.j)
+
+
 
 
 
