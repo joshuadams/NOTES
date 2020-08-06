@@ -64,6 +64,19 @@ class Test:
 x = Test()
 print(x.i, x.j)
 
+#ARRAYS
+Ratings = [3.7, 4.8, 5.2, 3.6, 4.9]
+#           0     1    2   3    4
+print(Ratings)
+#Prints out the rating numbered 0
+print(Ratings[0])
+
+#Changes Rating 3(3.6) to 3.7
+Ratings[3] = 3.7
+print(Ratings [0])
+
+
+#FUCTIONS
 
 
 
